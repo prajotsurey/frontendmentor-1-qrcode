@@ -1,9 +1,12 @@
-import HelloWorld from '../components/hello-world'
+import React from 'react'
+import Card from '../components/Card'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className="app">
-      <HelloWorld />
-    </div>
+    <>
+      <Card />
+      <Footer />
+    </>
   )
 }

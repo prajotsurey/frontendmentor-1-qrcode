@@ -1,0 +1,15 @@
+@import "../styles/mixins";
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  padding: 10px 0px;
+  color: #95A1AF;
+}
+
+.noWrapSpan{
+  @include noWrap()
+}
