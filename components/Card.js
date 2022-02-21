@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from './card.module.scss'
-import Image from 'next/image'
-import qrImage from '../public/images/image-qr-code.png'
 
 export default function Card() {
   return (
