@@ -1,10 +1,18 @@
+import Head from 'next/head'
 import React from 'react'
 import Card from '../components/Card'
 
 export default function Home() {
   return (
-    <main>
-      <Card />
-    </main>
+    <>
+      <Head>
+        <title>
+            FrontendMentor QrCode Challenge
+        </title>
+      </Head>
+      <main>
+        <Card />
+      </main>
+    </>
   )
 }
