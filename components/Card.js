@@ -9,7 +9,8 @@ export default function Card() {
       <Image 
         src={qrImage}
         alt="image of qrcode" 
-        className={styles.qrImage}/>
+        className={styles.qrImage}
+        priority={true}/>
       <div className={styles.textContent}>
         <h1 className={styles.title}>
           Improve your front-end skills by building projects
