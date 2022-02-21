@@ -6,8 +6,8 @@ import qrImage from '../public/images/image-qr-code.png'
 export default function Card() {
   return (
     <div className={styles.card}>
-      <Image 
-        src={qrImage}
+      <img 
+        src='/images/image-qr-code.png'
         alt="image of qrcode" 
         className={styles.qrImage}
         priority={true}/>
