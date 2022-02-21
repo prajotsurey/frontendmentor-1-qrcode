@@ -38,7 +38,7 @@ This project is built with NextJs and SASS. It is deployed on vercel.
 
 ### What I learned
 
-I learned the basics of SASS by using it with NextJS.
+I learned the basics of SASS by using it with NextJS. I also learned about mixins and how to use them.
 
 ### Continued development
 
@@ -53,7 +53,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Prajot Surey](https://www.prajot.dev)
-- Frontend Mentor - [@prajtosurey](https://www.frontendmentor.io/profile/prajotsurey)
+- Frontend Mentor - [@prajotsurey](https://www.frontendmentor.io/profile/prajotsurey)
 - Twitter - [@prajotsurey0](https://www.twitter.com/prajotsurey0)
 
 
