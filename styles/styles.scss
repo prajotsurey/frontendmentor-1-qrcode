@@ -20,7 +20,7 @@ body {
   min-height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: auto 40px;
+  grid-template-rows: 1fr auto;
 }
 
 main{
