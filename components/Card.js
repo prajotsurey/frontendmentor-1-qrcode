@@ -13,9 +13,9 @@ export default function Card() {
         <h1 className={styles.title}>
           Improve your front-end skills by building projects
         </h1>
-        <div className={styles.detail}>
+        <p className={styles.detail}>
           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-        </div>
+        </p>
       </div>
     </div>
   )
