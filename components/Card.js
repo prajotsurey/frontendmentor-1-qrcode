@@ -6,7 +6,7 @@ export default function Card() {
     <div className={styles.card}>
       <img 
         src='/images/image-qr-code.png'
-        alt="image of qrcode" 
+        alt="QR Code leading to frontendmentor.io" 
         className={styles.qrImage}
         priority={true}/>
       <div className={styles.textContent}>

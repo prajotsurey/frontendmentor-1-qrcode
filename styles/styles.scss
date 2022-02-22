@@ -12,8 +12,19 @@ body {
   margin: 0px;
   background-color: $background;
   font-family:'Outfit', sans-serif;
+  box-sizing: border-box;
+  padding: 10px 10px 0px 10px;
+}
+
+#__next{
+  min-height: 100%;
+  width: 100%;
   display: grid;
-  place-content: center;
+  grid-template-rows: auto 40px;
+}
+
+main{
+  place-self: center;
 }
 
 a{

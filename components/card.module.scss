@@ -5,10 +5,14 @@ $cardBakcground: hsl(0, 0%, 100%);
 .card {
   color: $fontColor;
   background-color: $cardBakcground;
-  width: 280px;
+  width: 320px;
   padding: 20px;
   border-radius: 15px;
+  box-sizing: border-box;
   box-shadow: 0px 0px 20px rgb(0,0,0,0.2);
+  @media (max-width:340px){
+    width: 100%;
+  }
 }
 
 .title{
